@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 type Props = {
   title: string
-};
+}
 
 export default function Home({ title = 'Next.js Boilerplate' }: Props) {
   return (
@@ -14,9 +14,7 @@ export default function Home({ title = 'Next.js Boilerplate' }: Props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          {title}
-        </h1>
+        <h1 className={styles.title}>{title}</h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
