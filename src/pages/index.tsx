@@ -1,17 +1,21 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+type Props = {
+  title: String
+}
+
+export default function Home({ title = 'Next.js Boilerplate' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>NextJS Boilerplate</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://nextjs.org">Next.js</a> Boilerplate!
+          {title}
         </h1>
 
         <p className={styles.description}>
