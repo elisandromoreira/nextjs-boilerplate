@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> shoud render the heading 1`] = `
+<main>
+  <h1>
+    React Test Library
+  </h1>
+</main>
+`;
