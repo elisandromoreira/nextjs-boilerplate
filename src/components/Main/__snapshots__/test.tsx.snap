@@ -3,7 +3,7 @@
 exports[`<Main /> shoud render the heading 1`] = `
 <main>
   <h1>
-    React Test Library
+    NextJS Boilerplate
   </h1>
 </main>
 `;

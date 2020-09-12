@@ -1,6 +1,6 @@
 const Main = () => (
   <main>
-    <h1>React Test Library</h1>
+    <h1>NextJS Boilerplate</h1>
   </main>
 );
 
