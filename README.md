@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
+This is a [Next.js](https://nextjs.org/) boilerplate to be used in general purpose app development.
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
 ## What is inside?
 
