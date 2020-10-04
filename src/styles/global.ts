@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62,5%5%; //rem
+    font-size: 62.5%;
   }
 
   html, body, #__next {
@@ -16,10 +16,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
+`
 
-`;
-
-export default GlobalStyles;
+export default GlobalStyles
